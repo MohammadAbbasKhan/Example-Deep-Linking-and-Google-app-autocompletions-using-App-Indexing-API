@@ -6,7 +6,6 @@ Deep Linking connects content on the web to the content in your android app.You 
 
  <activity android:name="com.example.example.SecondActivity">
              <intent-filter>
-                
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
