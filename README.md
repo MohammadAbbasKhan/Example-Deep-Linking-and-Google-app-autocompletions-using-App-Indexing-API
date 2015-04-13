@@ -23,10 +23,10 @@ Deep Linking connects content on the web to the content in your android app.You 
             </intent-filter>
         </activity>
   
-  Whenever the user tries to open the URL as mentioned above through the android device contaning owr app then he can see "Complete action using" Dailog with owr app.
+  Whenever the user tries to open the URL as mentioned above through the android device contaning our app then he/she can see "Complete action using" Dailog with our app too and click on our app will show the requisite content in our app with much more optimized UI for the device than opening a web page.
   
   A possible URL can be com.example.com/path-seperator1/path-seperator2/aaa for above mentioned parametrs.
   
-  DeepLinking then opens com.example.example.SecondActivity and on the OnCreate method we can get the hit URL through getIntent.getDataString() and perform requisite manipulations to show the data from owr app whose web URL was hit the the user.
+  DeepLinking then opens com.example.example.SecondActivity and on the OnCreate method we can get the hit URL through getIntent.getDataString() and perform requisite manipulations in com.example.example.SecondActivity to show the data from our app whose web URL was hit the the user.
   
 
